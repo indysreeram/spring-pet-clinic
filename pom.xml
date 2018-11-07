@@ -4,7 +4,7 @@
 
     <groupId>com.sreeram</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -43,6 +43,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
              </plugin>
         </plugins>

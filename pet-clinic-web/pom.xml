@@ -3,7 +3,7 @@
     <parent>
         <artifactId>spring-pet-clinic</artifactId>
         <groupId>com.sreeram</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.4-SNAPSHOT</version>
     </parent>
     <!--<properties>-->
         <!--<start-class>com.sreeram.springpetclinic.SpringPetClinicApplication</start-class>-->
@@ -18,7 +18,7 @@
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>com.sreeram</groupId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.4-SNAPSHOT</version>
         </dependency>
 
         <dependency>
