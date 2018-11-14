@@ -8,5 +8,23 @@
 
 <h1 th:text="'List of Vets'">List of Vets ....</h1>
 
+<table>
+    <thread>
+        <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thread>
+    <tbody>
+    <!--/*@thymesVar id="vets" type="com.sreeram.springpetclinic.model.Vet"*/-->
+    <tr th:each="vet:${vets}">
+        <td th:text="${vet?.id}">1</td>
+        <td th:text="${vet?.firstName}">Doc</td>
+        <td th:text="${vet?.lastName}">Pranav</td>
+    </tr>
+    </tbody>
+</table>
+
 </body>
 </html>
