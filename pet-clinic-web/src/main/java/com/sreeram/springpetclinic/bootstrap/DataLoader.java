@@ -78,12 +78,12 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner1);
 
-/*        Visit dogVisit = new Visit();
+        Visit dogVisit = new Visit();
         dogVisit.setPet(sreesPet);
         dogVisit.setDate(LocalDate.now());
         dogVisit.setDescription("Sneezy Dog!!!");
 
-        visitService.save(dogVisit);*/
+        visitService.save(dogVisit);
 
         Owner owner2 = new Owner();
         owner2.setFirstName("Rohan");
@@ -100,12 +100,11 @@ public class DataLoader implements CommandLineRunner {
         owner2.getPets().add(rohansPet);
 
         ownerService.save(owner2);
-/*
         Visit catVisit = new Visit();
         catVisit.setPet(rohansPet);
         catVisit.setDescription("Sneezy Cat");
         catVisit.setDate(LocalDate.now());
-        visitService.save(catVisit);*/
+        visitService.save(catVisit);
 
         System.out.println("Owners Loaded ....");
 
